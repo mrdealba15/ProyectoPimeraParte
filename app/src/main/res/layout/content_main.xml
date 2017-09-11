@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Rúbrica 1"
-                    android:textSize="30sp"
+                    android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintHorizontal_bias="0.072"
                     app:layout_constraintLeft_toLeftOf="parent"
