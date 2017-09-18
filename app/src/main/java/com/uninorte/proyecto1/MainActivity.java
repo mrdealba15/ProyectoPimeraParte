@@ -18,6 +18,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -134,9 +135,9 @@ public class MainActivity extends AppCompatActivity
         LayoutInflater inflater = LayoutInflater.from(this);
         LinearLayout linearLayout = (LinearLayout) inflater.inflate(id, null, false);
 
-        TextView textView = (TextView) linearLayout.findViewById(R.id.textView1);
-        Button editText = (Button) linearLayout.findViewById(R.id.button1);
-        textView.setText(msg);
+        EditText editText= (EditText) linearLayout.findViewById(R.id.editText);
+        Button boton = (Button) linearLayout.findViewById(R.id.button1);
+        editText.setText(msg);
         layout.addView(linearLayout);
     }
 

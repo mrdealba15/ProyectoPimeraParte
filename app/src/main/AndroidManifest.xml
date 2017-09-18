@@ -19,13 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Curso"
             android:label="@string/title_activity_curso" />
         <activity
             android:name=".Rubrica"
-            android:label="@string/title_activity_rubrica" />
-        <activity android:name=".Data"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_activity_rubrica"
+
+            />
+        <activity android:name=".Data" />
+        <activity android:name=".Content_rubrica"></activity>
+
     </application>
 
 </manifest>
