@@ -3,6 +3,7 @@
     package="com.uninorte.proyecto1">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -25,8 +26,8 @@
             android:label="@string/title_activity_curso" />
         <activity
             android:name=".Rubrica"
-            android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/title_activity_rubrica"
+            android:theme="@style/AppTheme.NoActionBar"
 
             />
         <activity android:name=".Data" />
